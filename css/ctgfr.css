@@ -1,0 +1,142 @@
+#adminmenu #toplevel_page_cartographer .menu-icon-generic div.wp-menu-image:before {
+	font-family: FontAwesome !important;
+	content: "\f14e";
+	font-size: 1.3em !important;
+}
+.ctgfr-clearer {
+	clear: both; 
+	height: 0; 
+	line-height: 0; 
+	display: block;
+}
+#ctgfr-settings-form label {
+	display: block; 
+	float:left; 
+	width:200px;
+	margin-top:10px;
+}
+#ctgfr-settings-form #select-all, 
+#ctgfr-settings-form #remove-all {
+	display: block; 
+	float:right; 
+	margin-left:10px;
+	color:#2ea2cc;
+	cursor: pointer;
+}
+#ctgfr-settings-form button {
+	margin-top:20px;
+}
+#ctgfr-settings-form .chosen-container-multi .chosen-choices li.search-field input[type="text"]{
+	height:auto !important; 
+	width:100% !important;
+}
+#ctgfr-settings-form .pin-styles {
+	overflow: hidden;
+	margin:0;
+}
+#ctgfr-settings-form .pin-styles li {
+	float:left;
+	margin-right:10px;
+}
+#ctgfr-settings-form .pin-styles label {
+	display:inline; 
+	width:auto;
+}
+#ctgfr-settings-form .pin-styles label > input{ 
+	display:none;
+}
+#ctgfr-settings-form .pin-styles label > input + img{
+	padding:5px;
+	cursor:pointer;
+	border:1px solid transparent;
+}
+#ctgfr-settings-form .pin-styles .active + img {
+	border:1px solid #ccc;
+}
+#ctgfr-settings-form .zoom-wrap {
+	float:left;
+}
+#ctgfr-settings-form .zoom-wrap .control {
+	float:left;
+	margin:0 10px;
+	width:150px;
+}
+#ctgfr-settings-form .zoom-wrap .control input,
+#ctgfr-settings-form .zoom-wrap .control .zoom-value {
+	float:left;
+	width:150px;
+	text-align:center;
+}
+#ctgfr-settings-form .min, #ctgfr-settings-form .max {
+	float:left;
+	display: block;
+	line-height: 60px;
+}
+#ctgfr-settings-form .more-options {
+	color:#2ea2cc;
+	cursor: pointer;
+}
+#more-options {
+	margin-top:20px;
+}
+.ctgfr-option {
+	margin:3px 0;
+}
+/* Front facing */
+.ctgfr-location-list, .ctgfr-location-list li {
+	list-style-type: none;
+}
+.ctgfr-location-list li.even {
+	background: #eee;
+	text-shadow: 0 1px 0px #fff;
+}
+.ctgfr-location-list{
+	margin:20px 0;
+	border-left:10px solid #ccc;
+	padding-left:0;
+}
+.ctgfr-location-list li {
+	padding: 1em;
+	list-style: none;
+	padding: 15px 20px 10px;
+}
+.ctgfr-location-list li h3 {
+	font-size:1.2em;
+}
+.ctgfr-location-list li h3 a {
+	float:right;
+	font-size: 0.8em;
+	font-weight:normal;
+}
+.ctgfr-location-list li address,
+.ctgfr-location-address address {
+	margin-bottom: 0px;
+	color:#666;
+	font-style:normal;
+}
+.ctgfr-location-list li .location-meta,
+.ctgfr-location-address {
+	margin-bottom: 10px;
+}
+.ctgfr-map-canvas img {
+	max-width: none;
+}
+.ctgfr-map-canvas {
+	border:1px solid #ccc;
+}
+.ctgfr-map-wrap {
+	margin-bottom:20px;
+}
+#ctgfr-fields {
+	margin-bottom:10px;
+}
+#ctgfr-fields input {
+	width:99%;
+}
+#ctgfr-preview {
+	width:99%;
+	height: 400px;
+}
+.ctgfr-widget input, .ctgfr-widget textarea {
+  margin-bottom: 5px;
+}
